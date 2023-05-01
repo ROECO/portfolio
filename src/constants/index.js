@@ -22,6 +22,7 @@ import {
   tesla,
   shopify,
   threejs,
+  reactcoffee,
 } from "../assets";
 
 export const navLinks = [
@@ -45,12 +46,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "JS Developer",
+    icon: javascript,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "React",
+    icon: reactjs,
   },
   {
     title: "Content Creator",
@@ -162,14 +163,6 @@ const testimonials = [
     designation: "Sniper Section",
     company: "HHC 2-22",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Anonymous",
-    designation: "",
-    company: "CLASSIFIED",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
 ];
 
 const projects = [
@@ -179,20 +172,37 @@ const projects = [
       "Web-based platform that allows users to learn and discover a bit about me.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: logo,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "REACT-Coffee",
+    description:
+      "First team based project working alongside fellow students Daniel Tarantini and Veronica Cisneros to create our first E-com website selling sudo products.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reactcoffee,
+    source_code_link: "https://github.com/Grace-Shopper-t9/G-S-Coffee-Co",
   },
 ];
 

@@ -18,10 +18,6 @@ const Hero = () => {
         items-start
         gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full violet-gradient" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
         <div>
           <h1 className={"${styles.heroHeadText} text-white"}>
             Hey, I'm<span className="text-[#915eff]"> Jesiah</span>

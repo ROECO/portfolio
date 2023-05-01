@@ -81,8 +81,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These following projects as of right now only 1 show my growth and
-          skillset
+          These following projects show my progression from start to current
+          please enjoy watching Journey of progression.
         </motion.p>
       </div>
 
